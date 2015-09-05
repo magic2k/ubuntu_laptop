@@ -1,2 +1,2 @@
 # ubuntu_laptop
-Script that prepares fresh ubuntu install for rails development needs.
+Script that prepares fresh ubuntu install for my rails development needs.
