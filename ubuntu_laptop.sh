@@ -7,10 +7,9 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-source ~/.bashrc
-rbenv install 2.2.3
-rbenv global 2.2.3
-rbenv rehash
+~/.rbenv/bin/rbenv install 2.2.3
+~/.rbenv/bin/rbenv global 2.2.3
+~/.rbenv/bin/rbenv rehash
 source ~/.bashrc
 curl -Lo- https://bit.ly/janus-bootstrap | bash
 mkdir ~/.janus
@@ -39,8 +38,8 @@ let g:airline_theme='dark'
 set laststatus=2
 EOL
 
-gem install bundler
-gem install pry
+~/.rbenv/shims/gem install bundler
+~/.rbenv/shims/gem install pry
 
 sudo apt-get -y install postgresql-9.4
 
