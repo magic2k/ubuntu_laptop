@@ -7,6 +7,7 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+source ~/.bashrc
 rbenv install 2.2.3
 rbenv global 2.2.3
 rbenv rehash
@@ -43,5 +44,6 @@ gem install pry
 
 sudo apt-get -y install postgresql-9.4
 
+source ~/.bashrc
 #run 'bundle update' in rails projects folders.
 
