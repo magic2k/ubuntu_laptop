@@ -11,7 +11,7 @@ source ~/.bashrc
 rbenv install 2.2.3
 rbenv global 2.2.3
 rbenv rehash
-
+source ~/.bashrc
 curl -Lo- https://bit.ly/janus-bootstrap | bash
 mkdir ~/.janus
 cd ~/.janus && git clone https://github.com/bling/vim-airline.git
