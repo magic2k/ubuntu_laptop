@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install git vim nodejs fonts-inconsolata fonts-ricty-diminished autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev libffi-dev curl imagemagick ctags sqlite libsqlite3-dev libpq-dev
+sudo apt-get -y install git vim nodejs fonts-inconsolata fonts-ricty-diminished autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev libffi-dev curl imagemagick ctags sqlite libsqlite3-dev libpq-dev byobu
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
@@ -45,4 +45,3 @@ sudo apt-get -y install postgresql-9.4
 
 source ~/.bashrc
 #run 'bundle update' in rails projects folders.
-
