@@ -7,8 +7,8 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-~/.rbenv/bin/rbenv install 2.2.3
-~/.rbenv/bin/rbenv global 2.2.3
+~/.rbenv/bin/rbenv install 2.3.1
+~/.rbenv/bin/rbenv global 2.3.1
 ~/.rbenv/bin/rbenv rehash
 source ~/.bashrc
 curl -Lo- https://bit.ly/janus-bootstrap | bash
