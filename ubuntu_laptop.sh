@@ -11,7 +11,8 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 ~/.rbenv/bin/rbenv global 2.3.1
 ~/.rbenv/bin/rbenv rehash
 source ~/.bashrc
-curl -Lo- https://bit.ly/janus-bootstrap | bash
+#curl -Lo- https://bit.ly/janus-bootstrap | bash
+curl -L https://bit.ly/janus-bootstrap | bash
 mkdir ~/.janus
 cd ~/.janus && git clone https://github.com/bling/vim-airline.git
 cd ~/.janus && git clone https://github.com/flazz/vim-colorschemes.git
