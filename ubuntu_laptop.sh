@@ -42,7 +42,7 @@ EOL
 ~/.rbenv/shims/gem install bundler
 ~/.rbenv/shims/gem install pry
 
-sudo apt-get -y install postgresql-9.4
+sudo apt-get -y install postgresql-9.6
 
 source ~/.bashrc
 #run 'bundle update' in rails projects folders.
