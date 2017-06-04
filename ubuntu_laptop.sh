@@ -42,6 +42,11 @@ EOL
 ~/.rbenv/shims/gem install bundler
 ~/.rbenv/shims/gem install pry
 
+#install postrgres (ubuntu/debian)
+echo "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main" | tee -a /etc/apt/sources.list
+#echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" | tee -a /etc/apt/sources.list
+wget --no-check-certificate -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+apt-get update
 sudo apt-get -y install postgresql-9.6
 
 source ~/.bashrc
